@@ -35,7 +35,6 @@ body {
 header {
   text-align: center;
   width: 90%;
-  margin-bottom: 3rem;
 }
 
 .slogan {
@@ -57,7 +56,6 @@ header h1 {
   color: var(--grayish-blue);
   font-size: 1.05rem;
   word-spacing: 0.2em;
-  margin-bottom: 2.5rem;
 }
 
 main {
@@ -67,6 +65,7 @@ main {
   justify-content: center;
   gap: 2.2rem;
   width: 90%;
+  margin: 3rem 0;
 }
 
 .center-cards {
@@ -84,7 +83,7 @@ main {
   border-top: solid 0.2rem;
   border-radius: 0.33rem;
   flex: 1;
-  box-shadow: var(--grayish-blue) 0px 16px 10px;
+  box-shadow: var(--grayish-blue) 0px 8px 10px;
   padding-right: 2em;
   padding-left: 2em;
   position: relative;
@@ -128,13 +127,13 @@ main {
 
 @media screen and (min-width: 768px) {
   .container {
-    gap: 2rem;
     max-width: 80rem;
   }
   header {
     width: 50%;
   }
   main {
+    margin: 0;
     flex-direction: row;
     gap: 2rem;
   }
@@ -147,5 +146,8 @@ main {
   }
   .card {
     flex-basis: 33%;
+  }
+  .hero-description {
+    font-size: 0.9rem;
   }
 }
